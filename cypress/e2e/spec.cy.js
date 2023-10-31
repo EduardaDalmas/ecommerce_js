@@ -30,5 +30,7 @@ describe('Acesso ao sistema de teste', () => {
 		cy.get('.btn_primary.cart_button').click();
 		cy.get('#finish').click();
 		cy.get('.complete-header').should('contain', 'Thank you for your order!');
+		cy.get('.shopping_cart_link').click();
+		cy.get('.cart_item').should('have.length', 0);
 	});
 });
