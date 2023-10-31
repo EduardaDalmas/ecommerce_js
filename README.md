@@ -20,7 +20,7 @@ Funcionalidade: fazer uma compra na saucedemo
 
     Cenário: acessar a página da saucedemo
         Dado que eu estiver na home do site
-        Quando efetuar uma pesquisa no site
+        Quando efetuar uma pesquisa no site (selecionando ordenação dos produtos)
         Então devo visualizar os resultados da pesquisa
         Então devo selecionar o produto
         Então devo clicar no botão de Adicionar ao carrinho
