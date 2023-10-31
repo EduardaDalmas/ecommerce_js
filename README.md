@@ -18,9 +18,9 @@ Funcionalidade: fazer uma compra na saucedemo
     Contexto: acessar a página para o teste
         Dado que acesso a página da saucedemo
 
-    Cenário: acessar a página da saucedemo e fazer uma busca
-        Dado que eu efetuar uma pesquisa no site
-        Quando eu clicar no botão de pesquisar
+    Cenário: acessar a página da saucedemo
+        Dado que eu estiver na home do site
+        Quando efetuar uma pesquisa no site
         Então devo visualizar os resultados da pesquisa
         Então devo selecionar o produto
         Então devo clicar no botão de Adicionar ao carrinho
